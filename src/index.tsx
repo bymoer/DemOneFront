@@ -5,5 +5,8 @@ import { createRoot } from 'react-dom/client';
 
 createRoot(document.getElementById("main") || document.createElement("div"))
 .render(
-    <div>Hello World!</div>
+    <>
+        <div>Hello World!</div>
+        <p>This is a message from the illustrious frontend part of the app.....</p>
+    </>
 );

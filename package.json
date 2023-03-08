@@ -66,8 +66,16 @@
     "webpack-hot-middleware": "^2.25.3"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "bcrypt": "^5.1.0",
     "bootstrap": "^5.2.3",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.2"
   }
 }

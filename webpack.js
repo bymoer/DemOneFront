@@ -108,6 +108,9 @@ export default {
             options: {
               usePolling: process.env.CHOKIDAR_USEPOLLING,
             },
-          }
+        },
+        proxy: {
+            '/api':'http://localhost:5000',
+        }
     }
 };
